@@ -1,0 +1,283 @@
+
+body{
+  font-family: 'Montserrat';
+
+  }
+
+#title{
+  background-color: #ff4368;
+
+}
+
+h1{
+  font-family: 'Lilita One';
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+.container-fluid{
+  padding: 3% 10%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+.pic{
+  transform: rotate(25deg);
+  width: 60%;
+  position: relative;
+  margin-top: 2.5rem;
+
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+h3{
+  font-family: 'Lilita One';
+
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.feat{
+  width: 2.5rem;
+}
+#features{
+  position: absolute;
+}
+.features{
+  text-align: center;
+  margin: -19rem 0 2rem 0;
+  padding: 6rem 8rem 4rem 8rem;
+  background-color: white;
+
+}
+.space{
+  padding: 2rem 5.5rem;
+  text-align: center;
+
+}
+.fp{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4368;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+  margin-top: 5%;
+
+}
+.testi{
+  color: #fff;
+  font-family: 'Lilita One';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Lilita One';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimg{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.pressimg{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.price{
+  margin: 4rem;
+}
+.plan{
+  margin: 4rem 2rem 0 2rem;
+  text-align: center;
+}
+@media (min-width:965px) {
+  .card{
+    height:24rem;
+  }
+
+}
+.card{
+
+  margin: 1rem 0.5rem;
+  text-align: center;
+}
+.card-header{
+  background-color: #ff4368;
+  color: #fff;
+}
+
+@media (max-width:1260px) and (min-width:1015px){
+  #features{
+    position: static;
+  }
+  .pic{
+    position: static;
+  }
+  .features{
+    margin-top: 0;
+  }
+}
+
+@media (max-width:1015px ) and (min-width:635px) {
+  #features{
+    position: static;
+  }
+  .pic{
+    position: static;
+    transform: rotate(0);
+  }
+  .features{
+    margin-top: 0;
+    padding: 6rem 4rem 4rem 4rem;
+  }
+  .heading{
+    text-align: center;
+  margin-top: 30%;
+  }
+  #pricing{
+    text-align: center;
+  }
+  .space{
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .testi{
+    font-size: 2rem;
+  }
+  .testimg{
+    width: 20%;
+  }
+  .pressimg{
+    width: 20%;
+  }
+  h1{
+    font-size: 3rem;
+  }
+  .navbar-brand{
+    font-size: 2rem;
+  }
+
+}
+@media (max-width:635px) {
+
+  .heading{
+    padding-top: 15%;
+    text-align: center;
+  }
+    #features {
+      position: static;
+    }
+    .pic{
+      position: static;
+      transform: rotate(0);
+    }
+    .features{
+      margin-top: 0;
+      padding: 6rem 4rem 4rem 4rem;
+    }
+
+
+    #pricing{
+      text-align: center;
+    }
+    .space{
+      padding: 2rem 2rem;
+      text-align: center;
+    }
+    .testi{
+      font-size: 2rem;
+    }
+    .testimg{
+      width: 20%;
+    }
+    .pressimg{
+      width: 20%;
+    }
+    h1{
+      font-size: 3rem;
+    }
+    .navbar-brand{
+      font-size: 2rem;
+    }
+
+  }
+
+
+#cta{
+  background-color: #ff4368;
+  text-align: center;
+  padding: 4% 15% 5% 15%;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.logo{
+  margin: 1rem 1rem;;
+  text-decoration: none;
+  color: gray;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: inherit;
+}
+.bar{
+  position:fixed;
+  width: 100%;
+  height: 11%;
+  background-color: #ff4368;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  padding: 0 10%
+
+}
+.heading{
+    margin-top: 10%;
+}
+.navbar-nav{
+  background-color: #ff4368;
+
+}
