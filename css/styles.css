@@ -140,6 +140,10 @@ h2{
   .card{
     height:24rem;
   }
+  .home{
+  margin-left: 20rem;
+
+}
 
 }
 .card{
@@ -310,7 +314,4 @@ a:hover{
   background-color: #fff;
   margin-top: 15rem;
 }
-.home{
-  margin-left: 20rem;
 
-}
